@@ -1,0 +1,10 @@
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-bg{
+        background-position: center;
+    }
+}

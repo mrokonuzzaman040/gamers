@@ -1,4 +1,4 @@
-
+/* global style  */
 html {
 	font-size:62.5%;
 }
@@ -15,8 +15,10 @@ input {
 body {
   width: 192rem;
 }
-.website-view-TR3 {
-  width: 100%;
+
+/* body style  */
+.body-elements {
+  /* width: 100%; */
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -24,7 +26,7 @@ body {
   flex-direction: column;
   background-color: #ffffff;
 }
-.website-view-TR3 .auto-group-mqgv-5xD {
+.body-section {
   box-sizing: border-box;
   padding-bottom: 12rem;
   width: 100%;
@@ -33,7 +35,9 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section {
+
+/* nav style  */
+.nav-section {
   margin-right: 0rem;
   box-sizing: border-box;
   padding: 3.7rem 24rem;
@@ -43,20 +47,20 @@ body {
   background-color: #ffffff;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar {
+.nav-bar {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-left {
+.nav-left {
   margin: 0.1rem 68.196rem 0.2rem 0rem;
   height: calc(100% - 0.3rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-left .nav-logo {
+.nav-logo {
   margin: 0rem 2rem 0.1rem 0rem;
   width: 8.6041rem;
   height: 4rem;
@@ -64,7 +68,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-left .nav-logo-text {
+.nav-logo-text {
   text-align: center;
   font-size: 4.5rem;
   font-weight: 700;
@@ -76,29 +80,30 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-left .nav-logo-text .nav-logo-text-sub-0 {
-  font-size: 4.5rem;
-  font-weight: 700;
-  line-height: 1.1725;
-  color: #0b0223;
-  font-family: Work Sans, 'Source Sans Pro';
+.nav-logo-text-sub-0 {
+  color: #FF42A5;
+font-size: 45px;
+font-family: Work Sans;
+font-weight: 700;
+word-wrap: break-word
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-left .nav-logo-text .nav-logo-text-sub-1 {
-}
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right {
+
+.nav-right {
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .nav-link {
+
+.nav-link {
   margin: 1.7rem 3.2rem 1.7rem 0rem;
   height: calc(100% - 3.4rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .nav-link .about-us {
+
+.about-us {
   margin-right: 3.2rem;
   text-align: center;
   font-size: 1.8rem;
@@ -109,7 +114,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .nav-link .developer {
+
+.developer {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 500;
@@ -119,7 +125,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .follow-us-section {
+
+.follow-us-section {
   box-sizing: border-box;
   padding: 1.6rem 2.408rem 1.6rem 2.35rem;
   height: 100%;
@@ -129,7 +136,8 @@ body {
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .follow-us-section .follow-us-dec {
+
+.follow-us-dec {
   margin-right: 2.35rem;
   text-align: center;
   font-size: 1.8rem;
@@ -140,13 +148,15 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .follow-us-section .follow-us-icons {
+
+.follow-us-icons {
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .follow-us-section .follow-us-icons .youtube {
+
+.youtube {
   margin-right: 1.6rem;
   width: 3.3916rem;
   height: 2.4rem;
@@ -154,21 +164,24 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .nav-section .nav-bar .nav-right .follow-us-section .follow-us-icons .tiktiok {
+
+.tiktiok {
   width: 2.4rem;
   height: 2.4rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container {
+
+.hero-container {
   margin: 0rem 0rem 12rem 0rem;
   width: calc(100% - 0rem);
   height: 130rem;
   position: relative;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-bg {
+
+.hero-bg {
   width: 90.1rem;
   height: 70rem;
   position: absolute;
@@ -177,7 +190,8 @@ body {
   object-fit: contain;
   vertical-align: top;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-left-img-container {
+
+.hero-left-img-container {
   width: 71.9446rem;
   height: 68.1018rem;
   position: absolute;
@@ -187,7 +201,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-left-img-container .hero-left-img-x1 {
+
+.hero-left-img-x1 {
   margin-right: 0.8446rem;
   width: 71.1rem;
   height: 44.6rem;
@@ -195,14 +210,16 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-left-img-container .hero-left-bottom-img-container {
+
+.hero-left-bottom-img-container {
   margin-left: 4.4rem;
   width: calc(100% - 4.4rem);
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-left-img-container .hero-left-bottom-img-container .hero-left-bottom-img-1 {
+
+.hero-left-bottom-img-1 {
   margin: 0rem 10.155rem 0.002rem 0rem;
   width: 21.3rem;
   height: 21.3rem;
@@ -210,31 +227,36 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-left-img-container .hero-left-bottom-img-container .hero-left-bottom-img-2 {
+
+.hero-left-bottom-img-2 {
   width: 36.0891rem;
   height: 23.5018rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container {
+
+.hero-section-2-container {
   width: 36.5rem;
   height: 40.4rem;
   position: absolute;
   left: 24rem;
   top: 14.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left {
+
+.hero-section-2-left {
   margin-bottom: 4rem;
   width: 36.2rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-left-content {
+
+.hero-section-2-left-content {
   margin: 0rem 0.7rem 2.3rem 0rem;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-left-content .hero-section-2-left-titel {
+
+.hero-section-2-left-titel {
   margin: 0rem 0rem 0.3rem 0.1rem;
   text-align: center;
   font-size: 4.8rem;
@@ -246,7 +268,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-left-content .hero-section-2-left-dec {
+
+.hero-section-2-left-dec {
   text-align: center;
   font-size: 9.5rem;
   font-weight: 800;
@@ -256,13 +279,15 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container {
+
+.hero-section-2-bottom-container {
   width: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content {
+
+.hero-section-2-bottom-container-content {
   box-sizing: border-box;
   padding-bottom: 1.6rem;
   width: 100%;
@@ -270,7 +295,8 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content .hero-section-2-bottom-sec-01 {
+
+.hero-section-2-bottom-sec-01 {
   margin: 0rem 13.9rem 1.6rem 0rem;
   box-sizing: border-box;
   padding-left: 0.3rem;
@@ -279,7 +305,8 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content .hero-section-2-bottom-sec-01 .hero-section-2-bottom-img-1 {
+
+.hero-section-2-bottom-img-1 {
   margin-right: 1.5rem;
   width: 1.8rem;
   height: 1.8rem;
@@ -287,7 +314,8 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content .hero-section-2-bottom-sec-01 .click-instant-play-gND {
+
+.click-instant-play-gND {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
@@ -298,7 +326,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content .hero-section-2-bottom-sec-02 {
+
+.hero-section-2-bottom-sec-02 {
   margin-right: 19.5rem;
   box-sizing: border-box;
   padding-left: 0.3rem;
@@ -307,7 +336,8 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content .hero-section-2-bottom-sec-02 .hero-section-2-bottom-img-2 {
+
+.hero-section-2-bottom-img-2 {
   margin-right: 1.5rem;
   width: 1.8rem;
   height: 1.8rem;
@@ -315,7 +345,8 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-container-content .hero-section-2-bottom-sec-02 .no-download-VaZ {
+
+.no-download-VaZ {
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.1725;
@@ -324,7 +355,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-sec-03 {
+
+.hero-section-2-bottom-sec-03 {
   box-sizing: border-box;
   padding-left: 0.2249rem;
   width: 100%;
@@ -332,7 +364,8 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-sec-03 .hero-section-2-bottom-img-3 {
+
+.hero-section-2-bottom-img-3 {
   margin-right: 1.425rem;
   width: 1.9501rem;
   height: 1.8rem;
@@ -340,7 +373,8 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-section-2-left .hero-section-2-bottom-container .hero-section-2-bottom-sec-03 .s-of-supported-online-games-e65 {
+
+.s-of-supported-online-games-e65 {
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.1725;
@@ -349,14 +383,15 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-btns {
+
+.hero-btns {
   width: 100%;
   height: 6.5rem;
   display: flex;
   align-items: center;
   border-radius: 4.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-btns .sign-in-btn {
+.sign-in-btn {
   margin-right: 2.4rem;
   width: 15.6rem;
   height: 100%;
@@ -374,7 +409,14 @@ body {
   border-radius: 4.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .hero-section-2-container .hero-btns .go-rogue-btn {
+
+.sign-in-btn:hover{
+  border: white 1px solid;
+  background-color: #ff42a5;
+  cursor: pointer;
+}
+
+.go-rogue-btn {
   width: 18.5rem;
   height: 100%;
   font-size: 2rem;
@@ -391,7 +433,14 @@ body {
   border-radius: 4.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .rectangle-3-rUy {
+
+.go-rogue-btn:hover{
+  border: white 1px solid;
+  background-color: #4ec5f7;
+  cursor: pointer;
+}
+
+.rectangle-3-rUy {
   width: 192rem;
   height: 60rem;
   position: absolute;
@@ -399,7 +448,8 @@ body {
   top: 70rem;
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.0299999993) 13.13%, rgba(255, 66, 165, 0.0299999993) 87.94%);
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 {
+
+.group-22-in5 {
   box-sizing: border-box;
   padding-left: 0.2rem;
   width: 52rem;
@@ -412,14 +462,16 @@ body {
   flex-direction: column;
   border-radius: 4.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .group-21-2Gy {
+
+.group-22-in5 .group-21-2Gy {
   margin-bottom: 3.2rem;
   align-items: flex-end;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .group-21-2Gy .we-are-gamer-kim {
+
+.we-game-titel {
   margin-bottom: 2.3rem;
   text-align: right;
   font-size: 4.8rem;
@@ -429,7 +481,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .group-21-2Gy .an-international-digital-games-and-entertainment-company-we-develop-publish-and-distribute-multiplayer-mobile-games-we-reach-over-400-million-players-each-month-and-our-audience-keeps-growing-6Xj {
+.we-game-dec {
   max-width: 50.9rem;
   text-align: right;
   font-size: 1.8rem;
@@ -439,7 +491,8 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .frame-2-LS5 {
+
+.know-btn {
   margin-bottom: 2.4rem;
   width: 20.8rem;
   height: 6.5rem;
@@ -457,7 +510,14 @@ body {
   border-radius: 4.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy {
+
+.know-btn:hover{
+  border: white 1px solid;
+  background-color: #ff42a5;
+  cursor: pointer;
+}
+
+.our-purpose-unleash-the-gamer-in-everyone-nYy {
   max-width: 51.8rem;
   text-align: right;
   font-size: 1.8rem;
@@ -467,21 +527,21 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy .our-purpose-unleash-the-gamer-in-everyone-nYy-sub-0 {
+.body-elements .body-section .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy .we-game-containt-1 {
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 1.875;
   color: #534c64;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy .our-purpose-unleash-the-gamer-in-everyone-nYy-sub-1 {
+.body-elements .body-section .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy .we-game-containt-2 {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.40625;
   color: #534c64;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .hero-container .pngwing-4-b93 {
+.body-elements .body-section .hero-container .pngwing-4-b93 {
   width: 86.8rem;
   height: 48.9rem;
   position: absolute;
@@ -490,7 +550,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-23-XHb {
+.body-elements .body-section .group-23-XHb {
   margin: 0rem 63.3rem 4.8rem 62.9rem;
   width: calc(100% - 126.2rem);
   align-items: center;
@@ -498,7 +558,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-23-XHb .online-games-funny-videos-Rtm {
+.body-elements .body-section .group-23-XHb .online-games-funny-videos-Rtm {
   margin-bottom: 1.5rem;
   text-align: right;
   font-size: 4.8rem;
@@ -510,20 +570,20 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-23-XHb .online-games-funny-videos-Rtm .online-games-funny-videos-Rtm-sub-0 {
+.body-elements .body-section .group-23-XHb .online-games-funny-videos-Rtm .funny-vdo-titel1 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.1725;
   color: #0b0223;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-23-XHb .online-games-funny-videos-Rtm .online-games-funny-videos-Rtm-sub-1 {
+.body-elements .body-section .group-23-XHb .online-games-funny-videos-Rtm .funny-vdo-titel2 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.1725;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-23-XHb .a-collection-of-hilarious-videos-to-brighten-your-day-SSV {
+.body-elements .body-section .group-23-XHb .funny-vdo-dec {
   margin-left: 0.2rem;
   text-align: center;
   font-size: 1.8rem;
@@ -534,7 +594,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu {
+.body-elements .body-section .auto-group-hrg9-9Lu {
   margin: 0rem 24rem 12rem 24rem;
   width: calc(100% - 48rem);
   height: 48.4rem;
@@ -543,14 +603,19 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-24-TMb {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 {
   height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-24-TMb .rectangle-4-1tu {
+
+.online-game-sec-1:hover{
+  background-color: #4c32dd69;
+  cursor: pointer;
+}
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .rectangle-4-1tu {
   margin-bottom: 2.4rem;
   width: 34.2rem;
   height: 40rem;
@@ -559,7 +624,7 @@ body {
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-24-TMb .no-download-no-installs-play-games-instantly-on-gamer-kbb {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .no-download-no-installs-play-games-instantly-on-gamer-kbb {
   max-width: 30rem;
   font-size: 2rem;
   font-weight: 500;
@@ -568,14 +633,14 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-25-U1o {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 {
   height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-25-U1o .rectangle-4-RBw {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .rectangle-4-RBw {
   margin-bottom: 2.4rem;
   width: 34.2rem;
   height: 40rem;
@@ -584,7 +649,7 @@ body {
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-25-U1o .did-you-score-unblockedgames-school-ZZ3 {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .did-you-score-unblockedgames-school-ZZ3 {
   max-width: 33.6rem;
   font-size: 2rem;
   font-weight: 500;
@@ -593,12 +658,12 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .auto-group-9lbk-GTT {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 {
   width: 34.2rem;
   height: 100%;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .auto-group-9lbk-GTT .auto-group-5j2m-2Sd {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .auto-group-5j2m-2Sd {
   margin-bottom: 2.4rem;
   box-sizing: border-box;
   padding: 15.6rem 11.4rem 15.6rem 11.5rem;
@@ -611,14 +676,14 @@ body {
   background-image: url('../assets/rectangle-4-bg.png');
   border-radius: 1.6rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .auto-group-9lbk-GTT .auto-group-5j2m-2Sd .group-29-MUu {
+ .watch-now {
   width: 100%;
   height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .auto-group-9lbk-GTT .auto-group-5j2m-2Sd .group-29-MUu .group-28-v2D {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .auto-group-5j2m-2Sd .watch-now .group-28-v2D {
   margin: 0rem 0rem 1.6rem 0.1rem;
   width: 4.8rem;
   height: 4.8rem;
@@ -626,7 +691,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .auto-group-9lbk-GTT .auto-group-5j2m-2Sd .group-29-MUu .watch-now-T29 {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .auto-group-5j2m-2Sd .watch-now .watch-now-T29 {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
@@ -635,7 +700,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .auto-group-9lbk-GTT .breaking-game-records-like-og-Xnh {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .breaking-game-records-like-og-Xnh {
   max-width: 22.5rem;
   font-size: 2rem;
   font-weight: 500;
@@ -643,14 +708,14 @@ body {
   color: #534c64;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-27-rpy {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 {
   height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-27-rpy .rectangle-4-pmo {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .rectangle-4-pmo {
   margin-bottom: 2.4rem;
   width: 34.2rem;
   height: 40rem;
@@ -659,7 +724,7 @@ body {
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .auto-group-hrg9-9Lu .group-27-rpy .busted-gaming-on-school-laptop-but-you-are-still-lit-NHX {
+.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .busted-gaming-on-school-laptop-but-you-are-still-lit-NHX {
   max-width: 32.2rem;
   font-size: 2rem;
   font-weight: 500;
@@ -668,7 +733,7 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 {
+.body-elements .body-section .group-62-VN9 {
   margin: 0rem 24rem 12rem 42.7rem;
   box-sizing: border-box;
   padding-left: 0.4rem;
@@ -679,7 +744,7 @@ body {
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-30-C1f {
+.body-elements .body-section .group-62-VN9 .group-30-C1f {
   margin: 21.6rem 12rem 21.583rem 0rem;
   height: calc(100% - 43.1833rem);
   align-items: flex-end;
@@ -687,7 +752,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-30-C1f .play-instantly-no-downloads-no-installs-L7s {
+.body-elements .body-section .group-62-VN9 .group-30-C1f .play-instantly-no-downloads-no-installs-L7s {
   margin-bottom: 2.4rem;
   max-width: 33.9rem;
   text-align: right;
@@ -697,20 +762,20 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-30-C1f .play-instantly-no-downloads-no-installs-L7s .play-instantly-no-downloads-no-installs-L7s-sub-0 {
+.body-elements .body-section .group-62-VN9 .group-30-C1f .play-instantly-no-downloads-no-installs-L7s .play-instantly-no-downloads-no-installs-L7s-sub-0 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.25;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-30-C1f .play-instantly-no-downloads-no-installs-L7s .play-instantly-no-downloads-no-installs-L7s-sub-1 {
+.body-elements .body-section .group-62-VN9 .group-30-C1f .play-instantly-no-downloads-no-installs-L7s .play-instantly-no-downloads-no-installs-L7s-sub-1 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.25;
   color: #0b0223;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-30-C1f .play-games-online-for-free-without-downloading-just-click-the-play-button-and-play-instantly-in-your-browser-bCD {
+.body-elements .body-section .group-62-VN9 .group-30-C1f .play-online-q {
   max-width: 34.9rem;
   text-align: right;
   font-size: 1.8rem;
@@ -720,14 +785,14 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-59-68y {
+.body-elements .body-section .group-62-VN9 .group-59-68y {
   width: 78rem;
   height: 100%;
   position: relative;
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-59-68y .rectangle-5-22d {
+.body-elements .body-section .group-62-VN9 .group-59-68y .rectangle-5-22d {
   width: 63.4833rem;
   height: 65rem;
   position: relative;
@@ -738,7 +803,7 @@ body {
   background-image: url('../assets/rectangle-5.png');
   border-radius: 0.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-62-VN9 .group-59-68y .rectangle-6-f5b {
+.body-elements .body-section .group-62-VN9 .group-59-68y .rectangle-6-f5b {
   width: 31.85rem;
   height: 36.5083rem;
   position: relative;
@@ -749,7 +814,7 @@ body {
   background-image: url('../assets/rectangle-6.png');
   border-radius: 0.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP {
+.body-elements .body-section .group-61-7TP {
   margin: 0rem 24rem 0rem 23.8rem;
   box-sizing: border-box;
   padding-right: 1.2rem;
@@ -760,7 +825,7 @@ body {
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-60-SEm {
+.body-elements .body-section .group-61-7TP .group-60-SEm {
   margin-right: 11.3rem;
   width: 84.6rem;
   height: 100%;
@@ -768,7 +833,7 @@ body {
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-60-SEm .rectangle-6-AwT {
+.body-elements .body-section .group-61-7TP .group-60-SEm .rectangle-6-AwT {
   width: 71rem;
   height: 65rem;
   position: relative;
@@ -779,7 +844,7 @@ body {
   background-image: url('../assets/rectangle-6-KQ5.png');
   border-radius: 0.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-60-SEm .rectangle-7-tMf {
+.body-elements .body-section .group-61-7TP .group-60-SEm .rectangle-7-tMf {
   width: 31.8rem;
   height: 36.5rem;
   position: relative;
@@ -790,14 +855,14 @@ body {
   background-image: url('../assets/rectangle-7.png');
   border-radius: 0.8rem;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-31-ytu {
+.body-elements .body-section .group-61-7TP .group-31-ytu {
   margin: 24rem 0rem 23.9rem 0rem;
   height: calc(100% - 47.9rem);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-31-ytu .play-games-online-anywhere-anytime-WP3 {
+.body-elements .body-section .group-61-7TP .group-31-ytu .play-games-online-anywhere-anytime-WP3 {
   margin: 0rem 0rem 2.4rem 0rem;
   max-width: 42.5rem;
   font-size: 4.8rem;
@@ -806,16 +871,14 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-31-ytu .play-games-online-anywhere-anytime-WP3 .play-games-online-anywhere-anytime-WP3-sub-0 {
-}
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-31-ytu .play-games-online-anywhere-anytime-WP3 .play-games-online-anywhere-anytime-WP3-sub-1 {
+.body-elements .body-section .group-61-7TP .group-31-ytu .play-games-online-anywhere-anytime-WP3 .play-games-online-anywhere-anytime-WP3-sub-1 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.25;
   color: #0b0223;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-mqgv-5xD .group-61-7TP .group-31-ytu .pc-dads-phone-moms-tablet-or-your-chromebook-with-gamer-you-can-play-your-favorite-games-online-for-free-any-time-anywhere-on-any-device-ETT {
+.body-elements .body-section .group-61-7TP .group-31-ytu .play-online-qe {
   max-width: 47.1rem;
   font-size: 1.8rem;
   font-weight: 400;
@@ -824,13 +887,13 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch {
+.body-elements .auto-group-3snm-Uch {
   width: 100%;
   height: 82.1rem;
   position: relative;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch .rectangle-7-qCM {
+.body-elements .auto-group-3snm-Uch .rectangle-7-qCM {
   width: 192rem;
   height: 82.1rem;
   position: absolute;
@@ -838,7 +901,7 @@ body {
   top: 0;
   background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB {
+.body-elements .auto-group-3snm-Uch .group-33-wmB {
   width: 68rem;
   height: 58.1rem;
   position: absolute;
@@ -846,12 +909,12 @@ body {
   top: 12rem;
   border-radius: 4.8rem;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .group-32-VGu {
+.body-elements .auto-group-3snm-Uch .group-33-wmB .group-32-VGu {
   margin-bottom: 3.2rem;
   display: flex;
   flex-direction: column;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .group-32-VGu .careers-d8D {
+.body-elements .auto-group-3snm-Uch .group-33-wmB .group-32-VGu .careers-d8D {
   margin-bottom: 2.4rem;
   font-size: 4.8rem;
   font-weight: 700;
@@ -861,7 +924,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .group-32-VGu .careers-dec {
+.body-elements .auto-group-3snm-Uch .group-33-wmB .group-32-VGu .careers-dec {
   max-width: 66.5rem;
   font-size: 1.8rem;
   font-weight: 400;
@@ -870,13 +933,13 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .auto-group-slnm-nvD {
+.body-elements .auto-group-3snm-Uch .group-33-wmB .auto-group-slnm-nvD {
   margin-bottom: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .auto-group-slnm-nvD .careers-items-left {
+.body-elements .auto-group-3snm-Uch .group-33-wmB .auto-group-slnm-nvD .careers-items-left {
   margin-right: 10.8rem;
   max-width: 32.6rem;
   font-size: 2rem;
@@ -886,7 +949,7 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .auto-group-slnm-nvD .careers-items-right {
+.body-elements .auto-group-3snm-Uch .group-33-wmB .auto-group-slnm-nvD .careers-items-right {
   max-width: 24.6rem;
   text-align: right;
   font-size: 2rem;
@@ -896,7 +959,7 @@ body {
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-33-wmB .frame-2-4FT {
+ .see-all-btn {
   width: 27.5rem;
   height: 6.5rem;
   font-size: 2rem;
@@ -911,14 +974,21 @@ body {
   background-color: #ffffff;
   border-radius: 4.8rem;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-65-Zi1 {
+
+.see-all-btn:hover{
+  border: #b468d8 1px solid;
+  background-color: white;
+  color: #ff42a5;
+  cursor: pointer;
+}
+.body-elements .auto-group-3snm-Uch .group-65-Zi1 {
   width: 101.3rem;
   height: 82.1rem;
   position: absolute;
   left: 90.7rem;
   top: 0;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-65-Zi1 .pngwing-5-rx1 {
+.body-elements .auto-group-3snm-Uch .group-65-Zi1 .pngwing-5-rx1 {
   width: 66.5rem;
   height: 51.6rem;
   position: absolute;
@@ -927,7 +997,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.website-view-TR3 .auto-group-3snm-Uch .group-65-Zi1 .vector-2-Ypq {
+.body-elements .auto-group-3snm-Uch .group-65-Zi1 .vector-2-Ypq {
   width: 101.3rem;
   height: 82.1rem;
   position: absolute;
@@ -936,7 +1006,7 @@ body {
   object-fit: contain;
   vertical-align: top;
 }
-.website-view-TR3 .auto-group-nxu5-J3K {
+.body-elements .auto-group-nxu5-J3K {
   box-sizing: border-box;
   padding-bottom: 0.0167rem;
   width: 100%;
@@ -945,7 +1015,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK {
+.body-elements .auto-group-nxu5-J3K .game-group-section {
   margin-right: 0rem;
   box-sizing: border-box;
   padding: 12rem 28.2rem 11.883rem 23.9rem;
@@ -954,13 +1024,13 @@ body {
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.0299999993) 13.13%, rgba(255, 66, 165, 0.0299999993) 87.94%);
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo {
   width: 100%;
   height: 100%;
   position: relative;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm {
   width: 131.3rem;
   height: 18.7rem;
   position: absolute;
@@ -971,21 +1041,21 @@ body {
   flex-direction: column;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 {
   margin: 0rem 0rem 2.583rem 77.4rem;
   width: calc(100% - 77.4rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM {
   margin: 0rem 1.3rem 0.1rem 0rem;
   width: 29.5rem;
   height: 8rem;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM .group-34-GXs {
+.game-group-1 {
   box-sizing: border-box;
   padding: 1rem 1.9rem 1rem 1rem;
   width: 100%;
@@ -995,7 +1065,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM .group-34-GXs .rectangle-11-DCD {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM .game-group-1 .rectangle-11-DCD {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1004,7 +1074,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM .group-34-GXs .educational-games-VQd {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-40-9CM .game-group-1 .educational-games-VQd {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1014,14 +1084,14 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj {
   margin-top: 0.1rem;
   width: 23.1rem;
   height: 8rem;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj .group-34-iHP {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 2rem 1rem 1rem;
   width: 100%;
@@ -1031,7 +1101,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj .group-34-iHP .rectangle-11-FYD {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj .game-group-1 .rectangle-11-FYD {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1040,7 +1110,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj .group-34-iHP .word-games-b6H {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-ruzs-dE1 .group-41-nPj .game-group-1 .word-games-b6H {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1050,7 +1120,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM {
   margin-right: 9.5rem;
   width: calc(100% - 9.5rem);
   height: 8.0167rem;
@@ -1058,14 +1128,14 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw {
   margin: 0.017rem 65.7rem 0rem 0rem;
   width: 29.9rem;
   height: calc(100% - 0.0167rem);
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw .group-34-B4V {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw .group-34-B4V {
   box-sizing: border-box;
   padding: 1rem 2rem 1rem 1rem;
   width: 100%;
@@ -1075,7 +1145,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw .group-34-B4V .rectangle-11-WsT {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw .group-34-B4V .rectangle-11-WsT {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1085,7 +1155,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw .group-34-B4V .role-palying-games-DWy {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-42-Euw .group-34-B4V .role-palying-games-DWy {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1095,14 +1165,14 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks {
   margin-bottom: 0.0167rem;
   width: 26.2rem;
   height: calc(100% - 0.0167rem);
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks .group-34-SuX {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 1.9rem 1rem 1rem;
   width: 100%;
@@ -1112,7 +1182,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks .group-34-SuX .rectangle-11-CNu {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks .game-group-1 .rectangle-11-CNu {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1121,7 +1191,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks .group-34-SuX .strategy-games-is3 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .group-44-Xgm .auto-group-foff-VxM .group-43-6Ks .game-group-1 .strategy-games-is3 {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1131,7 +1201,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container {
   width: 100.8rem;
   height: 18.8167rem;
   position: absolute;
@@ -1142,7 +1212,7 @@ body {
   flex-direction: column;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX {
   margin: 0rem 18.2rem 2.717rem 0rem;
   height: 8rem;
   display: flex;
@@ -1150,13 +1220,13 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-35-SRf {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-35-SRf {
   width: 24.3rem;
   height: 100%;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-35-SRf .group-34-on1 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-35-SRf .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 2rem 1rem 1rem;
   width: 100%;
@@ -1166,7 +1236,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-35-SRf .group-34-on1 .rectangle-11-MHj {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-35-SRf .game-group-1 .rectangle-11-MHj {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1175,7 +1245,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-35-SRf .group-34-on1 .action-games-JCy {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-35-SRf .game-group-1 .action-games-JCy {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1185,13 +1255,13 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-36-RHb {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-36-RHb {
   width: 28.1rem;
   height: 100%;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-36-RHb .group-34-Zub {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-36-RHb .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 2rem 1rem 1rem;
   width: 100%;
@@ -1201,7 +1271,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-36-RHb .group-34-Zub .rectangle-11-6uX {
+.rectangle-11-6uX {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1210,7 +1280,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-36-RHb .group-34-Zub .adventure-games-dPf {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-36-RHb .game-group-1 .adventure-games-dPf {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1220,13 +1290,13 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-37-uMB {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-37-uMB {
   width: 24.8rem;
   height: 100%;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-37-uMB .group-34-sYu {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-37-uMB .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 2rem 1rem 1rem;
   width: 100%;
@@ -1236,7 +1306,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-37-uMB .group-34-sYu .rectangle-11-d2H {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-37-uMB .game-group-1 .rectangle-11-d2H {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1246,7 +1316,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-owtb-LdX .group-37-uMB .group-34-sYu .arcade-games-ipR {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-owtb-LdX .group-37-uMB .game-group-1 .arcade-games-ipR {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1255,21 +1325,21 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 {
   margin-left: 41.8rem;
   width: calc(100% - 41.8rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-38-m21 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-38-m21 {
   margin: 0.1rem 2.9rem 0rem 0rem;
   width: 31.7rem;
   height: 8rem;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-38-m21 .group-34-hwF {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-38-m21 .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 1.9rem 1rem 1rem;
   width: 100%;
@@ -1279,7 +1349,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-38-m21 .group-34-hwF .rectangle-11-T9j {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-38-m21 .game-group-1 .rectangle-11-T9j {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1288,7 +1358,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-38-m21 .group-34-hwF .music-audio-games-Q4y {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-38-m21 .game-group-1 .music-audio-games-Q4y {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1298,14 +1368,14 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-39-HPf {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-39-HPf {
   margin-bottom: 0.1rem;
   width: 24.4rem;
   height: 8rem;
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-39-HPf .group-34-SXT {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-39-HPf .game-group-1 {
   box-sizing: border-box;
   padding: 1rem 2rem 1rem 1rem;
   width: 100%;
@@ -1315,7 +1385,7 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-39-HPf .group-34-SXT .rectangle-11-mZj {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-39-HPf .game-group-1 .rectangle-11-mZj {
   margin-right: 1.6rem;
   width: 6rem;
   height: 6rem;
@@ -1326,7 +1396,7 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .auto-group-dcks-SfK .group-46-mBo .group-45-DJ1 .auto-group-wand-cQ1 .group-39-HPf .group-34-SXT .puzzle-games-UU9 {
+.body-elements .auto-group-nxu5-J3K .game-group-section .group-46-mBo .game-group-container .auto-group-wand-cQ1 .group-39-HPf .game-group-1 .puzzle-games-UU9 {
   margin-top: 0.2rem;
   font-size: 2rem;
   font-weight: 600;
@@ -1336,7 +1406,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh {
+.body-elements .auto-group-nxu5-J3K .footer-container {
   margin-right: 0rem;
   box-sizing: border-box;
   padding: 12rem 56.25rem 13rem 56.25rem;
@@ -1345,21 +1415,21 @@ body {
   background-color: #0b0223;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV {
   width: 100%;
   height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .group-2-o93 {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .group-2-o93 {
   margin: 0rem 27.146rem 6.6rem 27.05rem;
   width: calc(100% - 54.1959rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .group-2-o93 .group-1-Y6d {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .group-2-o93 .group-1-Y6d {
   margin: 0rem 2rem 0.1rem 0rem;
   width: 8.6041rem;
   height: 4rem;
@@ -1367,7 +1437,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .group-2-o93 .gamer-csB {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .group-2-o93 .gamer-csB {
   text-align: center;
   font-size: 4.5rem;
   font-weight: 700;
@@ -1379,22 +1449,21 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .group-2-o93 .gamer-csB .gamer-csB-sub-0 {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .group-2-o93 .gamer-csB .gamer-csB-sub-0 {
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 1.1725;
   color: #ffffff;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .group-2-o93 .gamer-csB .gamer-csB-sub-1 {
-}
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM {
+
+.frame-4-RCM {
   width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM .our-story-mX7 {
+ .our-story-mX7 {
   margin-right: 5.95rem;
   text-align: center;
   font-size: 1.8rem;
@@ -1405,7 +1474,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM .games-6ZP {
+.games-6ZP {
   margin-right: 6rem;
   text-align: center;
   font-size: 1.8rem;
@@ -1416,7 +1485,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM .web-games-SdF {
+
+.web-games-SdF {
   margin-right: 6rem;
   text-align: center;
   font-size: 1.8rem;
@@ -1427,7 +1497,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM .careers-y7P {
+.careers-y7P {
   margin-right: 5.95rem;
   text-align: center;
   font-size: 1.8rem;
@@ -1438,7 +1508,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM .support-iz5 {
+.support-iz5 {
   margin-right: 5.9rem;
   text-align: center;
   font-size: 1.8rem;
@@ -1449,7 +1519,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .frame-4-RCM .my-account-s6H {
+.my-account-s6H {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
@@ -1459,7 +1529,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm {
+
+.auto-group-toyk-cJm {
   box-sizing: border-box;
   padding: 6.5rem 5.3rem 0rem 5.35rem;
   width: 100%;
@@ -1468,7 +1539,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 {
+.group-53-Yy7 {
   margin: 0rem 11.637rem 7.4rem 11.5rem;
   width: calc(100% - 23.137rem);
   height: 4rem;
@@ -1476,7 +1547,8 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-47-4Rf {
+
+.group-47-4Rf {
   margin-right: 4rem;
   width: 4rem;
   height: 4rem;
@@ -1484,7 +1556,8 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-48-C25 {
+
+.group-48-C25 {
   margin-right: 4rem;
   width: 4rem;
   height: 4rem;
@@ -1492,7 +1565,14 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-49-KMb {
+
+.game-group-1:hover {
+  background-color: #ff42a5;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.group-49-KMb {
   margin-right: 4rem;
   box-sizing: border-box;
   padding: 1.144rem 1.939rem 1.144rem 2.287rem;
@@ -1503,13 +1583,13 @@ body {
   background-image: url('../assets/vector-tsB.png');
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-49-KMb .vector-SSD {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-49-KMb .vector-SSD {
   width: 1.487rem;
   height: 1.7129rem;
   object-fit: contain;
   vertical-align: top;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-50-Nqf {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-50-Nqf {
   margin-right: 4rem;
   width: 4rem;
   height: 4rem;
@@ -1517,7 +1597,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-51-Wgy {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-51-Wgy {
   margin-right: 4rem;
   width: 4rem;
   height: 4rem;
@@ -1525,28 +1605,28 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-52-3B7 {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-53-Yy7 .group-52-3B7 {
   width: 4rem;
   height: 4rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH {
   width: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd {
   margin-bottom: 2.8rem;
   width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .terms-and-conditions-7wf {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .terms-and-conditions-7wf {
   margin-right: 6rem;
   text-align: center;
   font-size: 1.6rem;
@@ -1557,7 +1637,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .privacy-policy-EFb {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .privacy-policy-EFb {
   margin-right: 6rem;
   text-align: center;
   font-size: 1.6rem;
@@ -1568,7 +1648,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .cookie-policy-N6u {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .cookie-policy-N6u {
   margin-right: 5.95rem;
   text-align: center;
   font-size: 1.6rem;
@@ -1579,7 +1659,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .privacy-settings-hey {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .frame-5-AWd .privacy-settings-hey {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
@@ -1589,7 +1669,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.website-view-TR3 .auto-group-nxu5-J3K .group-56-8Yh .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .play-games-gamer-2000-2023-gamer-bangladesh-SMf {
+.body-elements .auto-group-nxu5-J3K .footer-container .group-55-SJV .auto-group-toyk-cJm .group-54-oAH .copyrights {
   margin-right: 0.15rem;
   text-align: center;
   font-size: 1.6rem;
