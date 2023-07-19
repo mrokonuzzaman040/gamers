@@ -1,6 +1,21 @@
 @media screen and (max-width: 576px) {
-    .nav-bar{
+
+    .nav-bar,
+    .nav-right,
+    .nav-link {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nav-left {
+        margin: 0;
+    }
+
+    .hero-container {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
+
 }
