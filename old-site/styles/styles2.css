@@ -177,11 +177,11 @@ word-wrap: break-word
 }
 
 .hero-container {
-  margin: 0rem 0rem 12rem 0rem;
+  /* margin: 0rem 0rem 12rem 0rem; */
   width: calc(100% - 0rem);
   height: 130rem;
   position: relative;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .hero-bg {
@@ -530,21 +530,24 @@ word-wrap: break-word
   font-family: Work Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.body-elements .body-section .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy .we-game-containt-1 {
+
+.we-game-containt-1 {
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 1.875;
   color: #534c64;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.body-elements .body-section .hero-container .group-22-in5 .our-purpose-unleash-the-gamer-in-everyone-nYy .we-game-containt-2 {
+
+.we-game-containt-2 {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.40625;
   color: #534c64;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.body-elements .body-section .hero-container .pngwing-4-b93 {
+
+.pngwing-4-b93 {
   width: 86.8rem;
   height: 48.9rem;
   position: absolute;
@@ -561,7 +564,8 @@ word-wrap: break-word
   flex-direction: column;
   flex-shrink: 0;
 }
-.body-elements .body-section .group-23-XHb .online-games-funny-videos-Rtm {
+
+.online-games-funny-videos-Rtm {
   margin-bottom: 1.5rem;
   text-align: right;
   font-size: 4.8rem;
@@ -573,20 +577,23 @@ word-wrap: break-word
   align-items: baseline;
   flex-shrink: 0;
 }
-.body-elements .body-section .group-23-XHb .online-games-funny-videos-Rtm .funny-vdo-titel1 {
+
+.funny-vdo-titel1 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.1725;
   color: #0b0223;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.body-elements .body-section .group-23-XHb .online-games-funny-videos-Rtm .funny-vdo-titel2 {
+
+.funny-vdo-titel2 {
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.1725;
   font-family: Work Sans, 'Source Sans Pro';
 }
-.body-elements .body-section .group-23-XHb .funny-vdo-dec {
+
+.funny-vdo-dec {
   margin-left: 0.2rem;
   text-align: center;
   font-size: 1.8rem;
@@ -597,7 +604,7 @@ word-wrap: break-word
   white-space: nowrap;
   flex-shrink: 0;
 }
-.body-elements .body-section .auto-group-hrg9-9Lu {
+.auto-group-hrg9-9Lu {
   margin: 0rem 24rem 12rem 24rem;
   width: calc(100% - 48rem);
   height: 48.4rem;
@@ -606,7 +613,8 @@ word-wrap: break-word
   align-items: center;
   flex-shrink: 0;
 }
-.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 {
+
+.online-game-sec-1 {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -618,7 +626,8 @@ word-wrap: break-word
   background-color: #4c32dd69;
   cursor: pointer;
 }
-.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .rectangle-4-1tu {
+
+.rectangle-4-1tu {
   margin-bottom: 2.4rem;
   width: 34.2rem;
   height: 40rem;
@@ -627,7 +636,7 @@ word-wrap: break-word
   border-radius: 1.6rem;
   flex-shrink: 0;
 }
-.body-elements .body-section .auto-group-hrg9-9Lu .online-game-sec-1 .no-download-no-installs-play-games-instantly-on-gamer-kbb {
+.no-download-no-installs-play-games-instantly-on-gamer-kbb {
   max-width: 30rem;
   font-size: 2rem;
   font-weight: 500;

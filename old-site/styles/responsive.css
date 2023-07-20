@@ -16,6 +16,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 30px;
+        margin-top: 150px;
+    }
+
+    .hero-section-2-left{
+        display: flex;
+        flex-direction: column;
     }
 
 }
