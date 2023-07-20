@@ -66,6 +66,7 @@ nav a{
     font-size: 20px;
     font-weight: 500;
 }
+
 .button-1{
     border-radius: 48px;
     color: #FFF;
@@ -75,6 +76,15 @@ nav a{
     background-color: #F948B2;
     border: none;
 }
+
+.button-1:hover{
+    background-color: #FFF;
+    color: #F948B2;
+    transition: 0.5s;
+    border: 2px solid #FF42A5;
+}
+
+
 .button-2{
     border-radius: 48px;
     color: #FFF;
@@ -84,6 +94,14 @@ nav a{
     background-color: #4EC5F7;
     border: none;
 }
+
+.button-2:hover{
+    background-color: #FFF;
+    color: #4EC5F7;
+    transition: 0.5s;
+    border: 2px solid #4EC5F7;
+}
+
 .top-banner{
     background-image: url("./assets/Group\ 14.png");
     background-repeat: no-repeat;
@@ -165,6 +183,12 @@ Card Section */
     width: 250px;
     height: 80px;
     gap: 7px;
+}
+
+.category-btn:hover{
+    background-color: #F948B2;
+    color: #FFF;
+    transition: 0.5s;
 }
 .category-button{
     display: flex;
