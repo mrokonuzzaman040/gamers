@@ -46,10 +46,25 @@
     }
 
     .footer-menu{
-        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
     }
-    
+
     #footer-paragraph{
         font-size: 14px;
+    }
+
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
+        align-items: center;
+    }
+
+    .footer-description{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
     }
 }
