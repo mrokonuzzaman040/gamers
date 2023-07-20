@@ -1,43 +1,60 @@
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
 
-    nav,.nav-items,.online-games{
+    nav,
+    .nav-right,
+    .online-games {
         display: flex;
         flex-direction: column;
-    } 
-    
-    .top-banner,.download-container{
+    }
+
+    .top-banner,
+    .download-container {
         display: flex;
         flex-direction: column;
         background-image: none;
     }
-    .banner-text{
+
+    .banner-text {
         background-image: url("./assets/Group\ 14.png");
         background-repeat: no-repeat;
         background-size: contain;
     }
-    .banner-img img{
+
+    .banner-img img {
+        margin-top: 10px;
         width: 100%;
     }
-    .online-card{
+
+    .online-card {
+        margin-top: 10px;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
-    .download-img1{
+
+    .download-img1 {
         width: 250px;
     }
-    .download-img2{
+
+    .download-img2 {
         width: 100px;
     }
-    .category-button{
+
+    .cart-body{
+        margin-top: 20px;
+    }
+
+    .category-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0px;
     }
-    .category-button img{
+
+    .category-container img {
         width: 30px;
     }
-    .category-btn{
+
+    .category-btn {
         width: 100%;
         height: 50px;
         margin: auto;
@@ -45,26 +62,26 @@
         gap: 10px;
     }
 
-    .footer-menu{
+    .footer-menu {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0px;
     }
 
-    #footer-dec{
+    #footer-dec {
         font-size: 14px;
     }
 
-    .footer-icons{
+    .footer-icons {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0px;
         align-items: center;
     }
 
-    .footer-description{
+    .footer-description {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 0px;
     }
 }
